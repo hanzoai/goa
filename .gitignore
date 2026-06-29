@@ -1,0 +1,6 @@
+# Rust example build artifacts (the built echo.wasm fixture is committed)
+examples/echo-rust/target/
+
+# Go
+*.test
+*.out

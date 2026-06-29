@@ -1,0 +1,10 @@
+{
+  "name": "echo-rust",
+  "lang": "rust",
+  "source": "echo-rust/echo.wasm",
+  "pool": 8,
+  "prefix": "/v1/echo-rust",
+  "routes": [
+    { "method": "POST", "path": "/echo", "func": "echo" }
+  ]
+}

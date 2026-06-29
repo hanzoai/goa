@@ -1,0 +1,10 @@
+{
+  "name": "hello-ts",
+  "lang": "typescript",
+  "source": "hello.ts",
+  "pool": 8,
+  "prefix": "/v1/hello-ts",
+  "routes": [
+    { "method": "POST", "path": "/greet", "func": "greet" }
+  ]
+}

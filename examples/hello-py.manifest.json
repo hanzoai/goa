@@ -1,0 +1,11 @@
+{
+  "name": "hello-py",
+  "lang": "python",
+  "source": "hello.py",
+  "pool": 8,
+  "prefix": "/v1/hello-py",
+  "routes": [
+    { "method": "POST", "path": "/greet", "func": "greet" },
+    { "method": "POST", "path": "/add", "func": "add" }
+  ]
+}
