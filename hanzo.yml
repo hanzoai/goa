@@ -1,0 +1,6 @@
+# Goa — script engines (goja / gpython / wazero) behind one Go interface.
+# No image; consumers import it. The gate is the suite, which exercises each
+# engine, plus vet over the same packages.
+test:
+  - name: test
+    run: go vet ./... && go test ./...
