@@ -1,5 +1,7 @@
 # goa
 
+[![Open in Hanzo](https://hanzo.app/badges/open-in-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/hanzoai/goa&ref=main&action=open) [![Edit with Hanzo](https://hanzo.app/badges/edit-with-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/hanzoai/goa&ref=main&action=edit) [![Deploy with Hanzo](https://hanzo.app/badges/deploy-with-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/hanzoai/goa&ref=main&action=deploy)
+
 Pure-Go polyglot embedding. Run Go, Python, TypeScript/JavaScript, and
 Rust/WASM services in one process — as goroutines, no cgo, no subprocesses, no
 GIL — so a fleet of services collapses into a single static binary
